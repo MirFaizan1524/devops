@@ -41,7 +41,7 @@ jobs:
     - name: Push Docker Image
       run: | 
         docker tag my-node-app:18 ${{ secrets.DOCKER_USERNAME }}/my-node-app:18
-        docker push ${{ secrets.DOCKER_USERNAME }}/my-node-app:18
+        docker push ${{ secrets.DOCKER_HUB_USERNAME }}/my-node-app:18
       
           
 
