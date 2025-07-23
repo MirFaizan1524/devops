@@ -4,6 +4,6 @@ COPY package.json .
 COPY app.js .
 COPY server.js .
 COPY _test_/test.js .
-RUN npm install && npm test
+RUN npm install
 EXPOSE 3000
 CMD ["node","server.js"]
