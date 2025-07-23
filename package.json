@@ -1,0 +1,24 @@
+{
+  "name": "cicdbasics",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start":"nodemon server.js",
+    "test": "jest ./_test_/test.js"
+  },
+  "keywords": [
+    "ci",
+    "cd"
+  ],
+  "author": "faizanMir",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "supertest": "^7.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
