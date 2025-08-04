@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  test-runner:
+  deploy-to-aws:
     runs-on: self-hosted
     steps:
       - name: Checkout code
@@ -13,4 +13,4 @@ jobs:
       - name: List out files
         run: ls -la
       - name: Check runner
-        run: echo "🎉 Self-hosted runner is working!"
+        run: echo pm2 restart app
