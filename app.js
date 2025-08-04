@@ -19,5 +19,14 @@ app.get('/',(req,res)=>{
 
 })
 
+app.get('/api',(req,res)=>{
+   res.status(201).json({
+    success:true,
+    message:"Your integration is completed"
+   })  
+
+
+})
+
 module.exports = app;
 
