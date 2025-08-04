@@ -13,7 +13,7 @@ app.use (express.urlencoded({ extended: true }));
 app.get('/',(req,res)=>{
    res.status(201).json({
     success:true,
-    message:"Welcome to CI/CD pipelines"
+    message:"Welcome to CI/CD pipelines by github workflows"
    })  
 
 
