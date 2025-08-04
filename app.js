@@ -27,6 +27,14 @@ app.get('/api',(req,res)=>{
 
 
 })
+app.get('/api/home',(req,res)=>{
+   res.status(201).json({
+    success:true,
+    message:"Welcome to the homepage!"
+   })  
+
+
+})
 
 module.exports = app;
 
