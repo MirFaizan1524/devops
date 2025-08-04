@@ -8,5 +8,9 @@ jobs:
   test-runner:
     runs-on: self-hosted
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: List out files
+        run: ls -la
       - name: Check runner
         run: echo "🎉 Self-hosted runner is working!"
