@@ -22,7 +22,7 @@ app.get('/',(req,res)=>{
 app.get('/api',(req,res)=>{
    res.status(201).json({
     success:true,
-    message:"Thanks for being with us in this devops journey!"
+    message:"Thanks faizan for being with us in this devops journey!"
    })  
 
 
